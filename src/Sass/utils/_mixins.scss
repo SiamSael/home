@@ -1,0 +1,35 @@
+@mixin text-shadow-title {
+    text-shadow: 5px 5px 5px grey;
+}
+
+@mixin boxShadow {
+    box-shadow: map-get($shadows, btn-dark);
+}
+
+@mixin p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 24px;   
+    color: #660547;
+    @include text-shadow-title;
+    @media (max-width: 670px) {
+      font-size: 12px;
+    }
+}
+
+@mixin field {
+    border-radius: 15px;
+    padding: 4px 12px;
+    border-color: $primary-color-element;
+}
+
+@mixin bubbleImgActivity {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    @media (max-width: 670px) {
+        height: 190px;
+        width: 190px;
+    }
+}

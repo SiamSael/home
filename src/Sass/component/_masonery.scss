@@ -1,0 +1,38 @@
+.my-masonry-grid {
+    width: fit-content;
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    @media (max-width: 670px) {
+      flex-direction: column;
+    }
+    &__column {
+      background-clip: padding-box;
+      @media (max-width: 670px) {
+        width: 100% !important;
+      }
+    }
+    &__div {
+      background: #F8F9F9 ;
+      width: fit-content;
+      margin: 40px;
+      padding: 24px;
+      border-radius: 25px;
+      @include boxShadow;
+      cursor: pointer;
+      @media (max-width: 1020px) {
+        margin: 24px;
+      }
+    }
+    &__img{
+      object-fit: cover;
+      width: 100%;
+      border-radius: 35px;
+    }
+    &__p {
+      @include p
+    }
+  }
+  
