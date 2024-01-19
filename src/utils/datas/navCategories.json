@@ -1,0 +1,26 @@
+[
+    {
+        "id":"#bankingManagement",
+        "title" : "Gestion banquaire"
+    },
+    {
+        "id": "#tax",
+        "title" : "Gestion fiscale"
+    },
+    {
+        "id": "#propertyManagement",
+        "title" : "Gestion immobilière"
+    },
+    {
+        "id": "#invoices",
+        "title" : "factures"
+    },
+    {
+        "id": "#budget",
+        "title" : "budget"
+    },
+    {
+        "id": "#shopping",
+        "title" : "Courses"
+    }
+]
